@@ -7,14 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4B9F1349298D85B9C21686C /* Pods_MjpegStream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCA906E87EA956C16B0C2CD /* Pods_MjpegStream.framework */; };
+		F9135D64202DAE26004A8D9A /* NavVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9135D63202DAE26004A8D9A /* NavVc.swift */; };
+		F9135D69202DC72C004A8D9A /* FAIcon+Lookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9135D66202DC72C004A8D9A /* FAIcon+Lookup.swift */; };
+		F9135D6A202DC72C004A8D9A /* FAIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9135D67202DC72C004A8D9A /* FAIcon.swift */; };
+		F9135D6B202DC72C004A8D9A /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9135D68202DC72C004A8D9A /* FontAwesome.ttf */; };
+		F92E84882031BC23003BCD2C /* RKRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = F92E84872031BC23003BCD2C /* RKRecorder.m */; };
+		F92E848D2031C748003BCD2C /* VidsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92E848C2031C748003BCD2C /* VidsVc.swift */; };
+		F9362A712031981A0009F847 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9362A6E2031981A0009F847 /* ReplayKit.framework */; };
+		F99F6FF2202DCBA000A33AA6 /* TabVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99F6FF1202DCBA000A33AA6 /* TabVc.swift */; };
+		F99F6FF4202DD48000A33AA6 /* TbdVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99F6FF3202DD48000A33AA6 /* TbdVc.swift */; };
 		F9BD81BA202D950800C34504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BD81B9202D950800C34504 /* AppDelegate.swift */; };
 		F9BD81BC202D950800C34504 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BD81BB202D950800C34504 /* ViewController.swift */; };
 		F9BD81BF202D950800C34504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BD81BD202D950800C34504 /* Main.storyboard */; };
 		F9BD81C1202D950800C34504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BD81C0202D950800C34504 /* Assets.xcassets */; };
 		F9BD81C4202D950800C34504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BD81C2202D950800C34504 /* LaunchScreen.storyboard */; };
+		F9D7602020318CEA00125731 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D7601F20318CEA00125731 /* AssetsLibrary.framework */; };
+		F9D760282031900700125731 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D760272031900700125731 /* IOSurface.framework */; };
+		F9DD869F202DA4B300E8CDF2 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DD8697202DA48000E8CDF2 /* IJKMediaFramework.framework */; };
+		F9DD86A1202DA4E800E8CDF2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DD86A0202DA4E800E8CDF2 /* AudioToolbox.framework */; };
+		F9DD86A3202DA4EE00E8CDF2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DD86A2202DA4EE00E8CDF2 /* AVFoundation.framework */; };
+		F9DD86A5202DA4F700E8CDF2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DD86A4202DA4F700E8CDF2 /* CoreGraphics.framework */; };
+		F9DD86A7202DA4FE00E8CDF2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DD86A6202DA4FE00E8CDF2 /* CoreMedia.framework */; };
+		F9DD86A9202DA50600E8CDF2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DD86A8202DA50600E8CDF2 /* CoreVideo.framework */; };
+		F9DD86AB202DA51400E8CDF2 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DD86AA202DA51400E8CDF2 /* libbz2.tbd */; };
+		F9DD86AD202DA51A00E8CDF2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DD86AC202DA51A00E8CDF2 /* libz.tbd */; };
+		F9DD86AF202DA52700E8CDF2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DD86AE202DA52700E8CDF2 /* MediaPlayer.framework */; };
+		F9DD86B1202DA52D00E8CDF2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DD86B0202DA52D00E8CDF2 /* MobileCoreServices.framework */; };
+		F9DD86B3202DA53400E8CDF2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DD86B2202DA53400E8CDF2 /* OpenGLES.framework */; };
+		F9DD86B5202DA53A00E8CDF2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DD86B4202DA53A00E8CDF2 /* QuartzCore.framework */; };
+		F9DD86B7202DA54000E8CDF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DD86B6202DA54000E8CDF2 /* UIKit.framework */; };
+		F9DD86B9202DA54600E8CDF2 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DD86B8202DA54600E8CDF2 /* VideoToolbox.framework */; };
+		F9DD86C2202DA6C900E8CDF2 /* IJKMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DD86BD202DA6C800E8CDF2 /* IJKMoviePlayerViewController.m */; };
+		F9DD86C3202DA6C900E8CDF2 /* IJKMediaControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DD86BF202DA6C800E8CDF2 /* IJKMediaControl.m */; };
+		F9DD86C4202DA6C900E8CDF2 /* IJKMoviePlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9DD86C1202DA6C900E8CDF2 /* IJKMoviePlayerViewController.xib */; };
+		F9DD86C8202DA73800E8CDF2 /* IJKDemoHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DD86C6202DA73800E8CDF2 /* IJKDemoHistory.m */; };
+		F9DD86CA202DA76F00E8CDF2 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DD86C9202DA76F00E8CDF2 /* libstdc++.tbd */; };
+		F9DD86CC202DAC2900E8CDF2 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DD86CB202DAC2900E8CDF2 /* UIView+Constraints.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F9DD8696202DA48000E8CDF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9DD8690202DA48000E8CDF2 /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E654EA8A1B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFramework;
+		};
+		F9DD8698202DA48000E8CDF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9DD8690202DA48000E8CDF2 /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5450B0431E63EA4300568494;
+			remoteInfo = IJKMediaFrameworkWithSSL;
+		};
+		F9DD869A202DA48000E8CDF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9DD8690202DA48000E8CDF2 /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E654EA941B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFrameworkTests;
+		};
+		F9DD869C202DA4A800E8CDF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9DD8690202DA48000E8CDF2 /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E654EA891B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFramework;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		54A24C24E458FC3D03EC12AD /* Pods-MjpegStream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MjpegStream.release.xcconfig"; path = "Pods/Target Support Files/Pods-MjpegStream/Pods-MjpegStream.release.xcconfig"; sourceTree = "<group>"; };
+		C33FBFDD54137FBB3C9EB129 /* Pods-MjpegStream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MjpegStream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MjpegStream/Pods-MjpegStream.debug.xcconfig"; sourceTree = "<group>"; };
+		CDCA906E87EA956C16B0C2CD /* Pods_MjpegStream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MjpegStream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9135D63202DAE26004A8D9A /* NavVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavVc.swift; sourceTree = "<group>"; };
+		F9135D66202DC72C004A8D9A /* FAIcon+Lookup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FAIcon+Lookup.swift"; sourceTree = "<group>"; };
+		F9135D67202DC72C004A8D9A /* FAIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAIcon.swift; sourceTree = "<group>"; };
+		F9135D68202DC72C004A8D9A /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		F92E84862031BC23003BCD2C /* RKRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKRecorder.h; sourceTree = "<group>"; };
+		F92E84872031BC23003BCD2C /* RKRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKRecorder.m; sourceTree = "<group>"; };
+		F92E848C2031C748003BCD2C /* VidsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidsVc.swift; sourceTree = "<group>"; };
+		F9362A6E2031981A0009F847 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		F99F6FF1202DCBA000A33AA6 /* TabVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabVc.swift; sourceTree = "<group>"; };
+		F99F6FF3202DD48000A33AA6 /* TbdVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TbdVc.swift; sourceTree = "<group>"; };
 		F9BD81B6202D950800C34504 /* MjpegStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MjpegStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BD81B9202D950800C34504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9BD81BB202D950800C34504 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +98,33 @@
 		F9BD81C0202D950800C34504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9BD81C3202D950800C34504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9BD81C5202D950800C34504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9D7601F20318CEA00125731 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F9D760272031900700125731 /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
+		F9DD8690202DA48000E8CDF2 /* IJKMediaPlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IJKMediaPlayer.xcodeproj; path = "../Video/ijkplayer-ios/ios/IJKMediaPlayer/IJKMediaPlayer.xcodeproj"; sourceTree = "<group>"; };
+		F9DD86A0202DA4E800E8CDF2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F9DD86A2202DA4EE00E8CDF2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F9DD86A4202DA4F700E8CDF2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F9DD86A6202DA4FE00E8CDF2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F9DD86A8202DA50600E8CDF2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F9DD86AA202DA51400E8CDF2 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		F9DD86AC202DA51A00E8CDF2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F9DD86AE202DA52700E8CDF2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F9DD86B0202DA52D00E8CDF2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F9DD86B2202DA53400E8CDF2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F9DD86B4202DA53A00E8CDF2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F9DD86B6202DA54000E8CDF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F9DD86B8202DA54600E8CDF2 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		F9DD86BC202DA6C700E8CDF2 /* MjpegStream-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MjpegStream-Bridging-Header.h"; sourceTree = "<group>"; };
+		F9DD86BD202DA6C800E8CDF2 /* IJKMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKMoviePlayerViewController.m; sourceTree = "<group>"; };
+		F9DD86BE202DA6C800E8CDF2 /* IJKMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKMoviePlayerViewController.h; sourceTree = "<group>"; };
+		F9DD86BF202DA6C800E8CDF2 /* IJKMediaControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKMediaControl.m; sourceTree = "<group>"; };
+		F9DD86C0202DA6C900E8CDF2 /* IJKMediaControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKMediaControl.h; sourceTree = "<group>"; };
+		F9DD86C1202DA6C900E8CDF2 /* IJKMoviePlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IJKMoviePlayerViewController.xib; sourceTree = "<group>"; };
+		F9DD86C5202DA72A00E8CDF2 /* IJKCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJKCommon.h; sourceTree = "<group>"; };
+		F9DD86C6202DA73800E8CDF2 /* IJKDemoHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKDemoHistory.m; sourceTree = "<group>"; };
+		F9DD86C7202DA73800E8CDF2 /* IJKDemoHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKDemoHistory.h; sourceTree = "<group>"; };
+		F9DD86C9202DA76F00E8CDF2 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		F9DD86CB202DAC2900E8CDF2 /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +132,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9362A712031981A0009F847 /* ReplayKit.framework in Frameworks */,
+				F9D760282031900700125731 /* IOSurface.framework in Frameworks */,
+				F9D7602020318CEA00125731 /* AssetsLibrary.framework in Frameworks */,
+				F9DD86CA202DA76F00E8CDF2 /* libstdc++.tbd in Frameworks */,
+				F9DD86B9202DA54600E8CDF2 /* VideoToolbox.framework in Frameworks */,
+				F9DD86B7202DA54000E8CDF2 /* UIKit.framework in Frameworks */,
+				F9DD86B5202DA53A00E8CDF2 /* QuartzCore.framework in Frameworks */,
+				F9DD86B3202DA53400E8CDF2 /* OpenGLES.framework in Frameworks */,
+				F9DD86B1202DA52D00E8CDF2 /* MobileCoreServices.framework in Frameworks */,
+				F9DD86AF202DA52700E8CDF2 /* MediaPlayer.framework in Frameworks */,
+				F9DD86AD202DA51A00E8CDF2 /* libz.tbd in Frameworks */,
+				F9DD86AB202DA51400E8CDF2 /* libbz2.tbd in Frameworks */,
+				F9DD86A9202DA50600E8CDF2 /* CoreVideo.framework in Frameworks */,
+				F9DD86A7202DA4FE00E8CDF2 /* CoreMedia.framework in Frameworks */,
+				F9DD86A5202DA4F700E8CDF2 /* CoreGraphics.framework in Frameworks */,
+				F9DD86A3202DA4EE00E8CDF2 /* AVFoundation.framework in Frameworks */,
+				F9DD86A1202DA4E800E8CDF2 /* AudioToolbox.framework in Frameworks */,
+				F9DD869F202DA4B300E8CDF2 /* IJKMediaFramework.framework in Frameworks */,
+				B4B9F1349298D85B9C21686C /* Pods_MjpegStream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37F2DCB10E8F9D1283BC5944 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C33FBFDD54137FBB3C9EB129 /* Pods-MjpegStream.debug.xcconfig */,
+				54A24C24E458FC3D03EC12AD /* Pods-MjpegStream.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9135D65202DC72C004A8D9A /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				F9135D66202DC72C004A8D9A /* FAIcon+Lookup.swift */,
+				F9135D67202DC72C004A8D9A /* FAIcon.swift */,
+				F9135D68202DC72C004A8D9A /* FontAwesome.ttf */,
+			);
+			path = FontAwesome;
+			sourceTree = "<group>";
+		};
 		F9BD81AD202D950800C34504 = {
 			isa = PBXGroup;
 			children = (
+				F9DD8690202DA48000E8CDF2 /* IJKMediaPlayer.xcodeproj */,
 				F9BD81B8202D950800C34504 /* MjpegStream */,
 				F9BD81B7202D950800C34504 /* Products */,
+				F9DD869E202DA4B300E8CDF2 /* Frameworks */,
+				37F2DCB10E8F9D1283BC5944 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +200,80 @@
 			children = (
 				F9BD81B9202D950800C34504 /* AppDelegate.swift */,
 				F9BD81BB202D950800C34504 /* ViewController.swift */,
+				F92E848C2031C748003BCD2C /* VidsVc.swift */,
+				F99F6FF1202DCBA000A33AA6 /* TabVc.swift */,
+				F9135D63202DAE26004A8D9A /* NavVc.swift */,
+				F99F6FF3202DD48000A33AA6 /* TbdVc.swift */,
+				F9DD86CB202DAC2900E8CDF2 /* UIView+Constraints.swift */,
 				F9BD81BD202D950800C34504 /* Main.storyboard */,
-				F9BD81C0202D950800C34504 /* Assets.xcassets */,
 				F9BD81C2202D950800C34504 /* LaunchScreen.storyboard */,
+				F9BD81C0202D950800C34504 /* Assets.xcassets */,
 				F9BD81C5202D950800C34504 /* Info.plist */,
+				F9DD86BB202DA6B400E8CDF2 /* Player */,
+				F9D7601920318B6500125731 /* Recorder */,
+				F9135D65202DC72C004A8D9A /* FontAwesome */,
 			);
 			path = MjpegStream;
+			sourceTree = "<group>";
+		};
+		F9D7601920318B6500125731 /* Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				F92E84862031BC23003BCD2C /* RKRecorder.h */,
+				F92E84872031BC23003BCD2C /* RKRecorder.m */,
+			);
+			path = Recorder;
+			sourceTree = "<group>";
+		};
+		F9DD8691202DA48000E8CDF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9DD8697202DA48000E8CDF2 /* IJKMediaFramework.framework */,
+				F9DD8699202DA48000E8CDF2 /* IJKMediaFrameworkWithSSL.framework */,
+				F9DD869B202DA48000E8CDF2 /* IJKMediaFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9DD869E202DA4B300E8CDF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9362A6E2031981A0009F847 /* ReplayKit.framework */,
+				F9D760272031900700125731 /* IOSurface.framework */,
+				F9D7601F20318CEA00125731 /* AssetsLibrary.framework */,
+				F9DD86C9202DA76F00E8CDF2 /* libstdc++.tbd */,
+				F9DD86B8202DA54600E8CDF2 /* VideoToolbox.framework */,
+				F9DD86B6202DA54000E8CDF2 /* UIKit.framework */,
+				F9DD86B4202DA53A00E8CDF2 /* QuartzCore.framework */,
+				F9DD86B2202DA53400E8CDF2 /* OpenGLES.framework */,
+				F9DD86B0202DA52D00E8CDF2 /* MobileCoreServices.framework */,
+				F9DD86AE202DA52700E8CDF2 /* MediaPlayer.framework */,
+				F9DD86AC202DA51A00E8CDF2 /* libz.tbd */,
+				F9DD86AA202DA51400E8CDF2 /* libbz2.tbd */,
+				F9DD86A8202DA50600E8CDF2 /* CoreVideo.framework */,
+				F9DD86A6202DA4FE00E8CDF2 /* CoreMedia.framework */,
+				F9DD86A4202DA4F700E8CDF2 /* CoreGraphics.framework */,
+				F9DD86A2202DA4EE00E8CDF2 /* AVFoundation.framework */,
+				F9DD86A0202DA4E800E8CDF2 /* AudioToolbox.framework */,
+				CDCA906E87EA956C16B0C2CD /* Pods_MjpegStream.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9DD86BB202DA6B400E8CDF2 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				F9DD86C0202DA6C900E8CDF2 /* IJKMediaControl.h */,
+				F9DD86BF202DA6C800E8CDF2 /* IJKMediaControl.m */,
+				F9DD86C7202DA73800E8CDF2 /* IJKDemoHistory.h */,
+				F9DD86C6202DA73800E8CDF2 /* IJKDemoHistory.m */,
+				F9DD86C5202DA72A00E8CDF2 /* IJKCommon.h */,
+				F9DD86BE202DA6C800E8CDF2 /* IJKMoviePlayerViewController.h */,
+				F9DD86BD202DA6C800E8CDF2 /* IJKMoviePlayerViewController.m */,
+				F9DD86C1202DA6C900E8CDF2 /* IJKMoviePlayerViewController.xib */,
+				F9DD86BC202DA6C700E8CDF2 /* MjpegStream-Bridging-Header.h */,
+			);
+			path = Player;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,13 +283,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9BD81C8202D950800C34504 /* Build configuration list for PBXNativeTarget "MjpegStream" */;
 			buildPhases = (
+				EEE6A18C179BE143111BBA31 /* [CP] Check Pods Manifest.lock */,
 				F9BD81B2202D950800C34504 /* Sources */,
 				F9BD81B3202D950800C34504 /* Frameworks */,
 				F9BD81B4202D950800C34504 /* Resources */,
+				AE58FC65855EB537273DBC20 /* [CP] Embed Pods Frameworks */,
+				1F9D04A40625C7DF34A7B576 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F9DD869D202DA4A800E8CDF2 /* PBXTargetDependency */,
 			);
 			name = MjpegStream;
 			productName = MjpegStream;
@@ -96,6 +312,7 @@
 				TargetAttributes = {
 					F9BD81B5202D950800C34504 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -111,6 +328,12 @@
 			mainGroup = F9BD81AD202D950800C34504;
 			productRefGroup = F9BD81B7202D950800C34504 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F9DD8691202DA48000E8CDF2 /* Products */;
+					ProjectRef = F9DD8690202DA48000E8CDF2 /* IJKMediaPlayer.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F9BD81B5202D950800C34504 /* MjpegStream */,
@@ -118,30 +341,123 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		F9DD8697202DA48000E8CDF2 /* IJKMediaFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IJKMediaFramework.framework;
+			remoteRef = F9DD8696202DA48000E8CDF2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F9DD8699202DA48000E8CDF2 /* IJKMediaFrameworkWithSSL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IJKMediaFrameworkWithSSL.framework;
+			remoteRef = F9DD8698202DA48000E8CDF2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F9DD869B202DA48000E8CDF2 /* IJKMediaFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = IJKMediaFrameworkTests.xctest;
+			remoteRef = F9DD869A202DA48000E8CDF2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		F9BD81B4202D950800C34504 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F9BD81C4202D950800C34504 /* LaunchScreen.storyboard in Resources */,
+				F9135D6B202DC72C004A8D9A /* FontAwesome.ttf in Resources */,
 				F9BD81C1202D950800C34504 /* Assets.xcassets in Resources */,
+				F9DD86C4202DA6C900E8CDF2 /* IJKMoviePlayerViewController.xib in Resources */,
 				F9BD81BF202D950800C34504 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F9D04A40625C7DF34A7B576 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MjpegStream/Pods-MjpegStream-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE58FC65855EB537273DBC20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MjpegStream/Pods-MjpegStream-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEE6A18C179BE143111BBA31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F9BD81B2202D950800C34504 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9135D6A202DC72C004A8D9A /* FAIcon.swift in Sources */,
 				F9BD81BC202D950800C34504 /* ViewController.swift in Sources */,
+				F9DD86C2202DA6C900E8CDF2 /* IJKMoviePlayerViewController.m in Sources */,
+				F99F6FF4202DD48000A33AA6 /* TbdVc.swift in Sources */,
+				F9135D64202DAE26004A8D9A /* NavVc.swift in Sources */,
+				F9135D69202DC72C004A8D9A /* FAIcon+Lookup.swift in Sources */,
+				F9DD86C8202DA73800E8CDF2 /* IJKDemoHistory.m in Sources */,
+				F99F6FF2202DCBA000A33AA6 /* TabVc.swift in Sources */,
+				F92E848D2031C748003BCD2C /* VidsVc.swift in Sources */,
+				F92E84882031BC23003BCD2C /* RKRecorder.m in Sources */,
+				F9DD86CC202DAC2900E8CDF2 /* UIView+Constraints.swift in Sources */,
 				F9BD81BA202D950800C34504 /* AppDelegate.swift in Sources */,
+				F9DD86C3202DA6C900E8CDF2 /* IJKMediaControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9DD869D202DA4A800E8CDF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IJKMediaFramework;
+			targetProxy = F9DD869C202DA4A800E8CDF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F9BD81BD202D950800C34504 /* Main.storyboard */ = {
@@ -272,14 +588,20 @@
 		};
 		F9BD81C9202D950800C34504 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C33FBFDD54137FBB3C9EB129 /* Pods-MjpegStream.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GJJDP62Z52;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 38M5MCKQ63;
 				INFOPLIST_FILE = MjpegStream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.modulesoftware.MjpegStream;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modulesoftwar.MjpegStrea;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MjpegStream/Player/MjpegStream-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +609,19 @@
 		};
 		F9BD81CA202D950800C34504 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54A24C24E458FC3D03EC12AD /* Pods-MjpegStream.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GJJDP62Z52;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 38M5MCKQ63;
 				INFOPLIST_FILE = MjpegStream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.modulesoftware.MjpegStream;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modulesoftwar.MjpegStrea;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MjpegStream/Player/MjpegStream-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -1,0 +1,6 @@
+framework module Pods_MjpegStream {
+  umbrella header "Pods-MjpegStream-umbrella.h"
+
+  export *
+  module * { export * }
+}
